@@ -1,0 +1,314 @@
+.nav .current{
+    backgroun-color:red;
+}
+
+
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: red;
+    text-align: center;
+}
+
+
+h2{
+    color: red;
+    padding-top: 35px;
+    font-weight: bold;
+}
+
+
+h3
+{
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: red;
+    font-family: cursive;
+    font-size: 35px;
+    background-color: rgb(3, 1, 12);
+    background-blend-mode: multiply;
+    font-weight: bolder;
+}
+
+
+h4
+{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(246, 242, 242);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.container
+{
+    width: 700px;
+    margin:70px auto 0;
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.container .box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-sizing: content-box;
+    display:inline-block;
+}
+
+
+
+
+.container .box .imgBox img
+{
+    max-width: 100%;
+    
+    transition: transform 2s;
+    border-radius: 100%;
+
+}
+
+
+.container .box:hover .imgBox img
+              {
+              transform: scale(1.2);
+              border-radius: 15%;
+              }
+
+
+
+
+
+body
+{
+    color: #f8fbf8;
+    
+
+    background: url(https://www.99images.com/photos/wallpapers/cars-bikes/bmwandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ctgqe.jpg?v=1577816163) no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    flex-direction: column;
+    
+    font-size: 25px;
+    line-height: 200%;
+    display: flex;
+    font-family: sans-serif;
+}
+
+
+
+#smart_thumbnail:hover
+             {
+             cursor: pointer;
+             }
+
+
+header{
+    background: url(https://i.ya-webdesign.com/images/bmw-m-png-15.png);
+}
+
+
+
+
+
+
+.small{
+    border-radius:20px;
+}
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+
+}
+
+
+
+ul {
+    margin-left: 0px;
+
+}
+
+
+
+
+ul li {
+    list-style: none;
+    float: left;
+    line-height: 100px;
+
+}
+
+
+.right li a
+{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.right a
+{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+
+.right li a:hover
+        {
+            color: rgb(224, 248, 8);
+        }
+
+.right a:hover
+         {
+         color: rgb(224, 248, 8);
+         }
+
+
+ul li a {
+    display: block;
+    font-size: 20px;
+    padding: 0 20px;
+    color: orange;
+    text-transform: capitalize;
+
+}
+
+
+html a:hover
+       {
+           font-size: 25px;
+       }
+
+a{
+    text-decoration: none;
+    color: rgb(240, 236, 12);
+}
+
+
+
+a:hover{
+        color: orange;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+a.active{
+        color: orange;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+
+
+.current{
+    background-size: contain;
+    background-color: rgb(10, 10, 10);
+}
+
+
+
+ul li a:hover {
+    color: orange;
+    font-size: 33px;
+}
+
+
+
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+
+
+p.first_paragraph {
+    text-indent: 50px;
+}
+
+
+
+
+main{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+    background-color: transparent;
+    border-radius: 30px;
+    border-width: 20px;
+}
+#disqus_thread{
+        background-color: rgb(57, 20, 220);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+
+footer {
+    border-radius: 500px;
+    background: rgba(255,255,255,0.2);
+}
+
+
+footer p{
+    margin-left: 20px;
+}
+
+.div-class {
+    border: yellow;
+}
+
+
+.video_wrapper
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 5px;
+    height: 0px;
+}
+
+.video_wrapper iframe
+{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    height: 100%;
+    width: 100%;
+}
+
+iframe{
+    border-width: 0px;
+}
